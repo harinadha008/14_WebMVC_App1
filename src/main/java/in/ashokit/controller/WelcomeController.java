@@ -22,7 +22,7 @@ public class WelcomeController {
 	public ModelAndView getGreetMsg() {
 		ModelAndView mav = new ModelAndView();
 
-		mav.addObject("msg", "Good Evening...!!");
+		mav.addObject("msg", "Good Evening or Good Night...!!");
 
 		mav.setViewName("index");
 
